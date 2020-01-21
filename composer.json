@@ -24,6 +24,7 @@
         "drupal/bootstrap_barrio": "^4.22",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
+        "drupal/devel": "3.x-dev",
         "drupal/pathauto": "^1.4",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
