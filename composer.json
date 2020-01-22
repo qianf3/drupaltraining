@@ -64,6 +64,13 @@
         ]
     },
     "extra": {
+        "patches":{
+            "drupal/devel":{
+                "add translation new features FQ":"https://www.drupal.org/files/issues/2019-12-06/devel-generate-translated-content-1277654-78.patch"
+            }
+
+        },
+
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
