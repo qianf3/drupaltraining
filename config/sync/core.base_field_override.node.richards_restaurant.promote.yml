@@ -1,0 +1,22 @@
+uuid: 77ea93db-7be6-400c-9a33-6d8a78905c66
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.richards_restaurant
+id: node.richards_restaurant.promote
+field_name: promote
+entity_type: node
+bundle: richards_restaurant
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

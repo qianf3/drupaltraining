@@ -1,0 +1,11 @@
+uuid: 6da496be-dfe4-430e-aa1b-ae1ce015681f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.flora_restaurant
+id: node.flora_restaurant
+target_entity_type_id: node
+target_bundle: flora_restaurant
+default_langcode: site_default
+language_alterable: false

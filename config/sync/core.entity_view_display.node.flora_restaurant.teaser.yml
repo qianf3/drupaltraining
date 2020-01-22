@@ -1,0 +1,31 @@
+uuid: fbc03e41-ed76-412e-aeeb-423680003734
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flora_restaurant.body
+    - node.type.flora_restaurant
+  module:
+    - text
+    - user
+id: node.flora_restaurant.teaser
+targetEntityType: node
+bundle: flora_restaurant
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

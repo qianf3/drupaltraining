@@ -1,0 +1,31 @@
+uuid: 15288f64-69a5-48c4-85db-9b6f6f238daf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.richards_restaurant.body
+    - node.type.richards_restaurant
+  module:
+    - text
+    - user
+id: node.richards_restaurant.teaser
+targetEntityType: node
+bundle: richards_restaurant
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

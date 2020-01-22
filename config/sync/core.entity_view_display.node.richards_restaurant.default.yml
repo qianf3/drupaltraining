@@ -1,0 +1,29 @@
+uuid: e0b9fd72-309f-4f6f-a155-85f610d4152f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.richards_restaurant.body
+    - node.type.richards_restaurant
+  module:
+    - text
+    - user
+id: node.richards_restaurant.default
+targetEntityType: node
+bundle: richards_restaurant
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

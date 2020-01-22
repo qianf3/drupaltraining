@@ -1,0 +1,18 @@
+uuid: 362de7a1-a22c-48cf-9c02-0e20d624d49b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ashrafs_restaurant
+id: node.ashrafs_restaurant.title
+field_name: title
+entity_type: node
+bundle: ashrafs_restaurant
+label: 'Name of restaurant'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

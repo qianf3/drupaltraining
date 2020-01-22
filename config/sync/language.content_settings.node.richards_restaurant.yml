@@ -1,0 +1,11 @@
+uuid: 5319c4a4-90d5-4732-b870-a7c6750d2914
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.richards_restaurant
+id: node.richards_restaurant
+target_entity_type_id: node
+target_bundle: richards_restaurant
+default_langcode: site_default
+language_alterable: false

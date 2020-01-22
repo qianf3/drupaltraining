@@ -1,0 +1,18 @@
+uuid: 711c7ee5-3c64-4f72-86b9-2f9f9f4c40f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.flora_restaurant
+id: node.flora_restaurant.title
+field_name: title
+entity_type: node
+bundle: flora_restaurant
+label: 'Name of restaurant'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

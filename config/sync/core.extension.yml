@@ -17,6 +17,7 @@ module:
   dblog: 0
   demo_umami_content: 0
   demo_umami_tour: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0

@@ -1,0 +1,18 @@
+uuid: 5a543274-54c1-41be-8674-16aaaa610af2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.richards_restaurant
+id: node.richards_restaurant.title
+field_name: title
+entity_type: node
+bundle: richards_restaurant
+label: 'Name of restaurant'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

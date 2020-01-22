@@ -1,0 +1,22 @@
+uuid: 33b02060-6d86-4ef3-b2e3-2545566e6f33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.richards_restaurant
+  module:
+    - text
+id: node.richards_restaurant.body
+field_name: body
+entity_type: node
+bundle: richards_restaurant
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
